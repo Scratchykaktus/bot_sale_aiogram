@@ -6,6 +6,4 @@ load_dotenv()
 
 BOT_TOKEN = str(os.getenv('BOT_TOKEN'))
 
-admins = [
-    
-]
+admins = str(os.getenv('ADMINS'))
